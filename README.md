@@ -56,4 +56,6 @@ $ cat /var/mail/$USER
 
 If everything is working well, you will get notification with sound whenever vaccine slot is available. You can check notification tab too for any older notification.
 
+The notification format is `pincode - name of vaccine center - total seats available`, the availability is checked for next 7 days.
+
 ![Alt text](docs/notification-tab.png "Notification tab")
