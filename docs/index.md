@@ -19,7 +19,7 @@ TOKEN="TOKEN_HERE"
 
 Get your `DISTRICT` code and `TOKEN` from cowin.
 
-![Alt text](docs/cowin.png "Cowin")
+![Alt text](cowin.png "Cowin")
 
 - add crontab entry i.e
 ```
@@ -32,7 +32,7 @@ This will run the script every minute & log the run in cowin.log for debug purpo
 
 #### Full disk access
 
-![Alt text](docs/full-disk-access.png "Full Disk Access")
+![Alt text](full-disk-access.png "Full Disk Access")
 
 Writting `cowin.log` requires disk access, you can give `cron` `full disk access`. If you need to know where is cron binary try.
 
@@ -58,4 +58,4 @@ If everything is working well, you will get notification with sound whenever vac
 
 The notification format is `pincode - name of vaccine center - total seats available`, the availability is checked for next 7 days.
 
-![Alt text](docs/notification-tab.png "Notification tab")
+![Alt text](notification-tab.png "Notification tab")
