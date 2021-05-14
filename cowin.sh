@@ -2,7 +2,7 @@
 echo "Running on $(date)"
 DISTRICT=230
 TODAY=$(date +"%d-%m-%Y")
-TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJkY2IzMDRkZS00NzE5LTQ5ZDktYWNhOC00MmIyNGQzNmY3NmYiLCJ1c2VyX2lkIjoiZGNiMzA0ZGUtNDcxOS00OWQ5LWFjYTgtNDJiMjRkMzZmNzZmIiwidXNlcl90eXBlIjoiQkVORUZJQ0lBUlkiLCJtb2JpbGVfbnVtYmVyIjo5NjgwMDAzODA0LCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjg0Nzg0ODI5NTgxMzAwLCJzZWNyZXRfa2V5IjoiYjVjYWIxNjctNzk3Ny00ZGYxLTgwMjctYTYzYWExNDRmMDRlIiwidWEiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTAuMC40NDMwLjkzIFNhZmFyaS81MzcuMzYiLCJkYXRlX21vZGlmaWVkIjoiMjAyMS0wNS0xM1QwODoxMTo0MC41ODZaIiwiaWF0IjoxNjIwODkzNTAwLCJleHAiOjE2MjA4OTQ0MDB9.58wZQMzhVXOaeZ0oypSSv523mnUrPxjkZ0Iyj9PaBKc"
+TOKEN="TOKEN_HERE"
 curl -s "https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByDistrict?district_id=$DISTRICT&date=$TODAY" \
   -H 'authority: cdn-api.co-vin.in' \
   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"' \
