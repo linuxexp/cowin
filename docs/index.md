@@ -22,6 +22,7 @@ Get your `DISTRICT` code and `TOKEN` from cowin.
 ![Alt text](cowin.png "Cowin")
 
 - add crontab entry i.e
+
 ```
 $ crontab -e
 * * * * * ~/Desktop/cowin/cowin.sh > ~/Desktop/cowin/cowin.log
